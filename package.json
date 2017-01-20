@@ -38,7 +38,7 @@
     "devtools-launchpad": "0.0.24",
     "devtools-reps": "^0.0.2",
     "documentation": "^4.0.0-beta11",
-    "eslint": "^3.12.0",
+    "eslint": "^3.14.0",
     "expect.js": "^0.3.1",
     "firefox-profile": "^0.4.0",
     "flow-bin": "^0.38.0",
