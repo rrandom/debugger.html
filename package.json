@@ -45,7 +45,7 @@
     "flow-coverage-report": "^0.2.0",
     "fuzzaldrin-plus": "^0.4.1",
     "glob": "^7.0.3",
-    "husky": "^0.12.0",
+    "husky": "^0.13.0",
     "lodash": "^4.13.1",
     "md5": "^2.2.1",
     "mocha": "^3.1.2",
