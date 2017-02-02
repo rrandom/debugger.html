@@ -58,7 +58,7 @@
     "pretty-fast": "^0.2.0",
     "react": "=0.14.7",
     "source-map": "^0.5.6",
-    "stylelint": "^7.4.2",
+    "stylelint": "7.7.1",
     "svg-inline-react": "^1.0.2",
     "webpack": "1.14.0",
     "workerjs": "github:jlongster/workerjs"
