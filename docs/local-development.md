@@ -1,9 +1,9 @@
 ## Local Development
 
 * [Configs](#configs)
-   * [Enabling a Feature Flag](#enabling-a-feature-flag)
-   * [Updating the config locally](#updating-the-config-locally)
-   * [Creating a new Feature Flag](#creating-a-new-feature-flag)
+  * [Enabling a Feature Flag](#enabling-a-feature-flag)
+  * [Updating the config locally](#updating-the-config-locally)
+  * [Creating a new Feature Flag](#creating-a-new-feature-flag)
 * [Hot Reloading](#hot-reloading-fire)
 * [Themes](#themes)
 * [Internationalization](#internationalization)
@@ -12,15 +12,6 @@
 * [Prefs](#prefs)
 * [SVGs](#svgs)
 * [Flow](#flow)
-  * [Adding flow to a file](#adding-flow-to-a-file)
-  * [Running flow](#running-flow)
-  * [Missing Annotation](#missing-annotation)
-  * [Where are types defined?](#where-are-types-defined?)
-  * [Checking flow coverage](#checking-flow-coverage)
-  * [Common Errors](#common-errors)
-    * [Required property](#required-property)
-    * [Missing Annotation](#missing-annotation)
-    * [Type Inconsistencies](#type-inconsistencies)
 * [Logging](#logging)
 * [Testing](#testing)
   * [Unit Tests](#unit-tests)
@@ -29,7 +20,7 @@
   * [Lint JS](#lint-js)
   * [Lint CSS](#lint-css)
 * [Colors](#colors)
-* [FAQ](#FAQ)
+* [FAQ](#faq)
 * [Getting Help](#getting-help)
 
 ### Configs
@@ -42,7 +33,7 @@ Here are the most common development configuration options:
   * `firefoxProxy` Enables logging the Firefox protocol in the terminal running `yarn start`
 * `chrome`
   * `debug` Enables listening for remotely debuggable Chrome browsers
-* `hotReloading` enables [Hot Reloading](./docs/local-development.md#hot-reloading) of CSS and React
+* `hotReloading` enables [Hot Reloading](#hot-reloading-fire) of CSS and React
 
 For a list of all the configuration options see the [packages/devtools-config/README.md][devtools-config-readme]
 
@@ -393,7 +384,7 @@ index 5996700..bb828d8 100644
 - [Adding flow to a file](./flow.md#adding-flow-to-a-file)
 - [Running flow](./flow.md#running-flow)
 - [Missing Annotation](./flow.md#missing-annotation)
-- [Where are types defined?](./flow.md#where-are-types-defined?)
+- [Where are types defined?](./flow.md#where-are-types-defined)
 - [Checking flow coverage](./flow.md#checking-flow-coverage)
 - [Common Errors](./flow.md#common-errors)
   - [Required property](./flow.md#required-property)
@@ -441,7 +432,7 @@ yarn run test-all
 #### Unit Tests
 
 * `yarn test` - Run headless tests
- * These are the basic unit tests which must always pass
+  * These are the basic unit tests which must always pass
 * [http://localhost:8000/mocha](http://localhost:8000/mocha) - Run tests in the browser when you have `yarn start` running [gif](http://g.recordit.co/Go1GOu1Pli.gif))
 
 
@@ -495,7 +486,7 @@ for each theme: [light][light-theme], [dark][dark-theme], [firebug][firebug-them
 
 #### Making a color change
 
-Most color changes can be made by finding a different [css variable][devtools-css-variable].
+Most color changes can be made by finding a different [css variable][devtools-css-variables].
 For instance, `--theme-splitter-color` is often good for border colors. The advantage to using an existing variable is that you know it'll look good in all the themes.
 
 When you need to update a variable, you should check to make sure it looks good in the other places it is being used.
@@ -547,7 +538,6 @@ your questions on [slack][slack].
 [jbhoosreddy]:https://avatars.githubusercontent.com/jbhoosreddy?size=56
 [arthur801031]:https://avatars.githubusercontent.com/arthur801031?size=56
 [zacqary]:https://avatars.githubusercontent.com/zacqary?size=56
-[@zacqary]:https://github.com/zacqary
 [@jasonlaster]:https://github.com/jasonlaster
 [@bomsy]:https://github.com/bomsy
 [@wldcordeiro]:https://github.com/wldcordeiro

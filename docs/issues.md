@@ -28,8 +28,8 @@ Issue titles should include a component at the front e.g. `[Editor]`
 
 The best issue titles are framed in terms of the impact on the user. i.e.
 
-* [Editor] search skips odd matches
-* [WatchExpressions] can't remove an expression after it's been edited
+* `[Editor] search skips odd matches`
+* `[WatchExpressions] can't remove an expression after it's been edited`
 
 Things to try and avoid in the title
 * implementation details where possible. Refactoring is an exception where it's okay
@@ -107,8 +107,8 @@ These are the [labels](https://github.com/devtools-html/debugger.html/labels) we
 | `difficulty:hard` | [search][labels-difficulty-hard] | Work that requires new tests, new code, and a good understanding of project; expect lots of review |
 | `docs` | [search][labels-docs] | Issues with our documentation |
 | `design` | [search][labels-design] | Issues that require design work |
-| `enhancement` | [search][labels-enhancement] | [Requests](#suggesting-enhancements-new) for features |
-| `bug` | [search][labels-bug] | [Reported Bugs](#reporting-bugs-bug) with the current code |
+| `enhancement` | [search][labels-enhancement] | [Requests](../CONTRIBUTING.md#suggesting-enhancements-new) for features |
+| `bug` | [search][labels-bug] | [Reported Bugs](../CONTRIBUTING.md#reporting-bugs-bug) with the current code |
 | `chrome` | [search][labels-chrome] | Chrome only issues |
 | `firefox` | [search][labels-firefox] | Firefox only issues |
 | `infrastructure` | [search][labels-infrastructure] | Issues with testing / build infrastructure |
@@ -165,3 +165,4 @@ We focus on being community friendly for many reasons.
 [labels-firefox]:https://github.com/devtools-html/debugger.html/labels/firefox
 [labels-infrastructure]:https://github.com/devtools-html/debugger.html/labels/infrastructure
 [labels-discussion]:https://github.com/devtools-html/debugger.html/labels/discussion
+[github-tables]: ./pull-requests.md#screenshots
